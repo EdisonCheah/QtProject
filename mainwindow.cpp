@@ -2,7 +2,7 @@
 #include "ui_mainwindow.h"
 #include <QColor>
 #include <QPixmap>
-#include "unistd.h"
+#include "acnoton.h"
 
 static int volumeValue = 0;
 static int driverValue = 0;
@@ -118,10 +118,12 @@ void MainWindow::on_Hazards_clicked()
 {
     if (HazardsLightIsOn == false) {
             ui->Hazards->setText("Hazards: On");
+            ui->Hazards->setStyleSheet("background-color: #FFA500; border:none");
             HazardsLightIsOn = true;
         }
         else    {
             ui->Hazards->setText("Hazards: Off");
+            ui->Hazards->setStyleSheet("background-color: #7DA1E5; border: none");
             HazardsLightIsOn = false;
         }
 }
@@ -236,28 +238,56 @@ void MainWindow::on_volumeSlider_valueChanged(int value)
 void MainWindow::on_driverSlider_valueChanged(int value)
 {
     driverValue = value;
-    ui->driverBar->setValue(driverValue);
+    if (FLAcOn == true) {
+        ui->driverBar->setValue(driverValue);
+    }
+    else    {
+        AcNotOn dialog;
+        dialog.setModal(true);
+        dialog.exec();
+    }
 }
 
 
 void MainWindow::on_FPassengerSlider_valueChanged(int value)
 {
     FPassengerValue = value;
-    ui->FPassengerBar->setValue(FPassengerValue);
+    if (FRAcOn == true) {
+        ui->FPassengerBar->setValue(FPassengerValue);
+    }
+    else    {
+        AcNotOn dialog;
+        dialog.setModal(true);
+        dialog.exec();
+    }
 }
 
 
 void MainWindow::on_RLPassengerSlider_valueChanged(int value)
 {
     RLPassengerValue = value;
-    ui->RLPassengerBar->setValue(RLPassengerValue);
+    if (RLAcOn == true) {
+        ui->RLPassengerBar->setValue(RLPassengerValue);
+    }
+    else    {
+        AcNotOn dialog;
+        dialog.setModal(true);
+        dialog.exec();
+    }
 }
 
 
 void MainWindow::on_RRPassengerSlider_valueChanged(int value)
 {
     RRPassengerValue = value;
-    ui->RRPassengerBar->setValue(RRPassengerValue);
+    if (RLAcOn == true) {
+        ui->RRPassengerBar->setValue(RRPassengerValue);
+    }
+    else    {
+        AcNotOn dialog;
+        dialog.setModal(true);
+        dialog.exec();
+    }
 }
 
 
