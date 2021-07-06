@@ -55,7 +55,8 @@
           </sizepolicy>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
+          <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
          </property>
          <property name="text">
           <string>Toggle Lights</string>
@@ -71,7 +72,8 @@
           </sizepolicy>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
+          <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
          </property>
          <property name="text">
           <string>Radio Volume</string>
@@ -87,7 +89,8 @@
           </sizepolicy>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
+          <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
          </property>
          <property name="text">
           <string>Air Conditioning</string>
@@ -115,7 +118,8 @@
           </sizepolicy>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
+          <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
          </property>
          <property name="text">
           <string>Light Brightness</string>
@@ -131,7 +135,8 @@
           </sizepolicy>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
+          <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
          </property>
          <property name="text">
           <string>Driving Mode</string>
@@ -147,7 +152,8 @@
           </sizepolicy>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
+          <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
          </property>
          <property name="text">
           <string>About</string>
@@ -194,7 +200,8 @@
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(125, 161, 229);</string>
+       <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
       </property>
       <property name="text">
        <string>Back</string>
@@ -210,7 +217,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Volume</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Volume&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </widget>
@@ -225,7 +232,8 @@
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(125, 161, 229);</string>
+       <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
       </property>
       <property name="text">
        <string>Back</string>
@@ -250,7 +258,8 @@
           </sizepolicy>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
+          <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
          </property>
          <property name="text">
           <string>Front Center Light: Off</string>
@@ -266,7 +275,8 @@
           </sizepolicy>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
+          <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
          </property>
          <property name="text">
           <string>Front Left Light: Off</string>
@@ -282,7 +292,8 @@
           </sizepolicy>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
+          <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
          </property>
          <property name="text">
           <string>Rear Light: Off</string>
@@ -298,7 +309,8 @@
           </sizepolicy>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
+          <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
          </property>
          <property name="text">
           <string>Front Right Light: Off</string>
@@ -317,7 +329,8 @@
           <bool>false</bool>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
+          <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
          </property>
          <property name="text">
           <string>Hazards: Off</string>
@@ -333,7 +346,8 @@
           </sizepolicy>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
+          <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
          </property>
          <property name="text">
           <string>Headlights: Off</string>
@@ -406,7 +420,8 @@
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(125, 161, 229);</string>
+       <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
       </property>
       <property name="text">
        <string>Back</string>
@@ -422,7 +437,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Driver</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Driver&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_2">
@@ -435,7 +450,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Front Passenger</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Front Passenger&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_3">
@@ -448,7 +463,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Rear Passenger</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Rear Passenger&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_4">
@@ -461,7 +476,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Rear Passenger</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Rear Passenger&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QWidget" name="layoutWidget">
@@ -483,7 +498,8 @@
           </sizepolicy>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
+          <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
          </property>
          <property name="text">
           <string>Driver A/C: Off</string>
@@ -500,6 +516,7 @@
          </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(125, 161, 229);
+border: none;
 </string>
          </property>
          <property name="text">
@@ -516,7 +533,8 @@
           </sizepolicy>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
+          <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
          </property>
          <property name="text">
           <string>Rear Left Passenger A/C: Off</string>
@@ -532,7 +550,8 @@
           </sizepolicy>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
+          <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
          </property>
          <property name="text">
           <string>Rear Right Passenger A/C: Off</string>
@@ -593,7 +612,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Brightness</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Brightness&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QPushButton" name="BackButtonPg4">
@@ -606,7 +625,8 @@
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(125, 161, 229);</string>
+       <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
       </property>
       <property name="text">
        <string>Back</string>
@@ -650,7 +670,8 @@
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(125, 161, 229);</string>
+       <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
       </property>
       <property name="text">
        <string>Back</string>
@@ -682,87 +703,11 @@
        <string/>
       </property>
      </widget>
-     <widget class="QWidget" name="layoutWidget">
-      <property name="geometry">
-       <rect>
-        <x>270</x>
-        <y>40</y>
-        <width>261</width>
-        <height>471</height>
-       </rect>
-      </property>
-      <layout class="QVBoxLayout" name="verticalLayout_3">
-       <item>
-        <widget class="QPushButton" name="ComfortButton">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
-         </property>
-         <property name="text">
-          <string>Comfort</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="EcoButton">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
-         </property>
-         <property name="text">
-          <string>Eco</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="SportButton">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
-         </property>
-         <property name="text">
-          <string>Sport</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="OffroadButton">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(125, 161, 229);</string>
-         </property>
-         <property name="text">
-          <string>Offroad</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
      <widget class="QLabel" name="SportLabel">
       <property name="geometry">
        <rect>
         <x>570</x>
-        <y>280</y>
+        <y>270</y>
         <width>101</width>
         <height>101</height>
        </rect>
@@ -775,7 +720,7 @@
       <property name="geometry">
        <rect>
         <x>570</x>
-        <y>400</y>
+        <y>370</y>
         <width>101</width>
         <height>101</height>
        </rect>
@@ -783,6 +728,82 @@
       <property name="text">
        <string/>
       </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>30</y>
+        <width>271</width>
+        <height>481</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <widget class="QRadioButton" name="ComfortButton">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Comfort</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="EcoButton">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Eco</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="SportButton">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Sport</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="OffroadButton">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Offroad</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </widget>
     </widget>
     <widget class="QWidget" name="page_5">
@@ -796,7 +817,8 @@
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(125, 161, 229);</string>
+       <string notr="true">background-color: rgb(125, 161, 229);
+border: none;</string>
       </property>
       <property name="text">
        <string>Back</string>
@@ -807,12 +829,12 @@
        <rect>
         <x>240</x>
         <y>40</y>
-        <width>321</width>
+        <width>381</width>
         <height>31</height>
        </rect>
       </property>
       <property name="text">
-       <string>This dashboard has/will have the following features:</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;This dashboard has/will have the following features:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QWidget" name="layoutWidget">
@@ -828,28 +850,28 @@
        <item>
         <widget class="QLabel" name="label_8">
          <property name="text">
-          <string>Interior Light Control</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Interior Light Control&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QLabel" name="label_9">
          <property name="text">
-          <string>Volume Settings</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Volume Settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QLabel" name="label_10">
          <property name="text">
-          <string>Air Conditioning</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Air Conditioning&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QLabel" name="label_11">
          <property name="text">
-          <string>Light Brightness</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Light Brightness&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
         </widget>
        </item>
@@ -864,7 +886,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>22</height>
+     <height>28</height>
     </rect>
    </property>
   </widget>

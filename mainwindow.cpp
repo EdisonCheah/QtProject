@@ -22,7 +22,7 @@ MainWindow::MainWindow(QWidget *parent)
         ui->RLPassengerBar->setValue(volumeValue);
         ui->RRPassengerBar->setValue(volumeValue);
         ui->brightnessBar->setValue(volumeValue);
-        QPixmap pix("/Users/edison/Desktop/Code2College/Project Driving Mode Pics/comfort.png");
+        QPixmap pix("/home/pi/Documents/Work/Qt Project Driving Mode Icons/comfort.png");
         ui->ComfortLabel->setPixmap(pix.scaled(100,100,Qt::KeepAspectRatio));
     ui->stackedWidget->setCurrentIndex(0);
 }
@@ -130,17 +130,17 @@ void MainWindow::on_Headlights_clicked()
 {
     if (HeadlightSettings == 0) {
         ui->Headlights->setText("Headlights: Low");
-        ui->Headlights->setStyleSheet("background-color: #39FF14");
+        ui->Headlights->setStyleSheet("background-color: #39FF14; border: none");
         HeadlightSettings += 1;
     }
     else if (HeadlightSettings == 1) {
         ui->Headlights->setText("Headlights: High");
-        ui->Headlights->setStyleSheet("background-color: #0000FF");
+        ui->Headlights->setStyleSheet("background-color: #0000FF; border: none");
         HeadlightSettings += 1;
     }
     else if (HeadlightSettings == 2) {
         ui->Headlights->setText("Headlights: Off");
-        ui->Headlights->setStyleSheet("background-color: #7DA1E5");
+        ui->Headlights->setStyleSheet("background-color: #7DA1E5; border: none");
         HeadlightSettings = 0;
     }
 }
@@ -295,14 +295,26 @@ void MainWindow::on_BackButtonPg6_clicked()
 void MainWindow::on_ComfortButton_clicked()
 {
     if (ComfortMode == false)   {
-        QPixmap pix("/Users/edison/Desktop/Code2College/Project Driving Mode Pics/comfort.png");
+        QPixmap pix("/home/pi/Documents/Work/Qt Project Driving Mode Icons/comfort.png");
         ui->ComfortLabel->setPixmap(pix.scaled(100,100,Qt::KeepAspectRatio));
-        ComfortMode = true;
+        QPixmap empty("");
+
+        ui->SportLabel->setPixmap(empty);
+        ui->SportButton->setStyleSheet("background-color: #264269; border: none; color: white");
+        SportMode = false;
+
+        ui->EcoLabel->setPixmap(empty);
+        ui->EcoButton->setStyleSheet("background-color: #264269; border: none; color: white");
+        EcoMode = false;
+
+        ui->OffroadLabel->setPixmap(empty);
+        ui->OffroadButton->setStyleSheet("background-color: #264269; border: none; color: white");
+        OffroadMode = false;
     }
     else    {
-        QPixmap pix("");
-        ui->ComfortLabel->setPixmap(pix.scaled(100,100,Qt::KeepAspectRatio));
-        ui->ComfortLabel->setStyleSheet("background-color: #264269");
+        QPixmap empty("");
+        ui->ComfortLabel->setPixmap(empty);
+        ui->ComfortLabel->setStyleSheet("background-color: #264269; border: none; color: white");
         ComfortMode = false;
     }
 }
@@ -312,15 +324,27 @@ void MainWindow::on_EcoButton_clicked()
 {
 
     if (EcoMode == false)   {
-        QPixmap pix("/Users/edison/Desktop/Code2College/Project Driving Mode Pics/eco on.png");
+        QPixmap pix("/home/pi/Documents/Work/Qt Project Driving Mode Icons/eco on.png");
         ui->EcoLabel->setPixmap(pix.scaled(100,100,Qt::KeepAspectRatio));
-        ui->EcoButton->setStyleSheet("background-color: #39FF14");
-        EcoMode = true;
+        ui->EcoButton->setStyleSheet("background-color: #39FF14; border: none; color: white");
+        QPixmap empty("");
+
+        ui->SportLabel->setPixmap(empty);
+        ui->SportButton->setStyleSheet("background-color: #264269; border: none; color: white");
+        SportMode = false;
+
+        ui->ComfortLabel->setPixmap(empty);
+        ui->ComfortButton->setStyleSheet("background-color: #264269; border: none; color: white");
+        ComfortMode = false;
+
+        ui->OffroadLabel->setPixmap(empty);
+        ui->OffroadButton->setStyleSheet("background-color: #264269; border: none; color: white");
+        OffroadMode = false;
     }
     else {
-        QPixmap pix("/Users/edison/Desktop/Code2College/Project Driving Mode Pics/eco off.png");
-        ui->EcoLabel->setPixmap(pix.scaled(100,100,Qt::KeepAspectRatio));
-        ui->EcoButton->setStyleSheet("background-color: #7DA1E5");
+        QPixmap empty("");
+        ui->EcoLabel->setPixmap(empty);
+        ui->EcoButton->setStyleSheet("background-color: #7DA1E5; border: none; color: white");
         EcoMode = false;
     }
 }
@@ -329,15 +353,27 @@ void MainWindow::on_EcoButton_clicked()
 void MainWindow::on_SportButton_clicked()
 {
     if (SportMode == false) {
-        QPixmap pix("/Users/edison/Desktop/Code2College/Project Driving Mode Pics/sport.png");
+        QPixmap pix("/home/pi/Documents/Work/Qt Project Driving Mode Icons/sport.png");
         ui->SportLabel->setPixmap(pix.scaled(100,100,Qt::KeepAspectRatio));
-        ui->SportButton->setStyleSheet("background-color: #FF0000");
-        SportMode = true;
+        ui->SportButton->setStyleSheet("background-color: #FF0000; border: none; color: white");
+        QPixmap empty("");
+
+        ui->ComfortLabel->setPixmap(empty);
+        ui->ComfortButton->setStyleSheet("background-color: #264269; border: none; color: white");
+        SportMode = false;
+
+        ui->EcoLabel->setPixmap(empty);
+        ui->EcoButton->setStyleSheet("background-color: #264269; border: none; color: white");
+        EcoMode = false;
+
+        ui->OffroadLabel->setPixmap(empty);
+        ui->OffroadButton->setStyleSheet("background-color: #264269; border: none; color: white");
+        OffroadMode = false;
     }
     else {
-        QPixmap pix("");
-        ui->SportLabel->setPixmap(pix.scaled(100,100,Qt::KeepAspectRatio));
-        ui->SportButton->setStyleSheet("background-color: #7DA1E5");
+        QPixmap empty("");
+        ui->SportLabel->setPixmap(empty);
+        ui->SportButton->setStyleSheet("background-color: #7DA1E5; border: none; color: white");
         SportMode = false;
     }
 }
@@ -346,15 +382,27 @@ void MainWindow::on_SportButton_clicked()
 void MainWindow::on_OffroadButton_clicked()
 {
     if (OffroadMode == false) {
-        QPixmap pix("/Users/edison/Desktop/Code2College/Project Driving Mode Pics/offroad.png");
+        QPixmap pix("/home/pi/Documents/Work/Qt Project Driving Mode Icons/offroad.png");
         ui->OffroadLabel->setPixmap(pix.scaled(100,100,Qt::KeepAspectRatio));
-        ui->OffroadButton->setStyleSheet("background-color: #663300");
-        OffroadMode = true;
+        ui->OffroadButton->setStyleSheet("background-color: #663300; border: none; color: white");
+        QPixmap empty("");
+
+        ui->SportLabel->setPixmap(empty);
+        ui->SportButton->setStyleSheet("background-color: #264269; border: none; color: white");
+        SportMode = false;
+
+        ui->EcoLabel->setPixmap(empty);
+        ui->EcoButton->setStyleSheet("background-color: #264269; border: none; color: white");
+        EcoMode = false;
+
+        ui->ComfortLabel->setPixmap(empty);
+        ui->ComfortButton->setStyleSheet("background-color: #264269; border: none; color: white");
+        OffroadMode = false;
     }
     else {
-        QPixmap pix("");
-        ui->OffroadLabel->setPixmap(pix.scaled(100,100,Qt::KeepAspectRatio));
-        ui->OffroadButton->setStyleSheet("background-color: #7DA1E5");
+        QPixmap empty("");
+        ui->OffroadLabel->setPixmap(empty);
+        ui->OffroadButton->setStyleSheet("background-color: #7DA1E5; border: none; color: white");
         OffroadMode = false;
     }
 }
