@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "wiringPi.h"
+#include "softPwm.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -47,8 +49,6 @@ private slots:
 
     void on_RRAc_clicked();
 
-    void on_BrightnessButton_clicked();
-
     void on_BackButtonPg4_clicked();
 
     void on_volumeSlider_valueChanged(int value);
@@ -60,8 +60,6 @@ private slots:
     void on_RLPassengerSlider_valueChanged(int value);
 
     void on_RRPassengerSlider_valueChanged(int value);
-
-    void on_brightnessSlider_valueChanged(int value);
 
     void on_DrivingMode_clicked();
 
@@ -80,6 +78,18 @@ private slots:
     void on_SportButton_clicked();
 
     void on_OffroadButton_clicked();
+
+    void on_SettingsButton_clicked();
+
+    void on_BgColorBox_activated(int index);
+
+    void on_BackButtonPg7_clicked();
+
+    void on_AdjustBrightnessButton_clicked();
+
+    void on_brightnessSlider_valueChanged(int value);
+
+    void on_CloseButton_clicked();
 
 private:
     Ui::MainWindow *ui;

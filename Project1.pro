@@ -11,15 +11,21 @@ CONFIG += c++11
 SOURCES += \
     acnoton.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    lightnoton.cpp
 
 HEADERS += \
     acnoton.h \
-    mainwindow.h
+    mainwindow.h \
+    lightnoton.h
 
 FORMS += \
     acnoton.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    lightnoton.ui
+
+LIBS += \
+    -L/usr/local/lib -lwiringPi
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
